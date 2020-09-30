@@ -1,5 +1,5 @@
 # Wild-Book
-Alexandre Corrette
-Christopher Persinet
-Léandre Gaden
-Axel Raboit
+Alexandre Corrette => header & footer
+Christopher Persinet => carte Wilders
+Léandre Gaden => datas & cartes wilders
+Axel Raboit => structure HTML
