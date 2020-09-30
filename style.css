@@ -138,6 +138,9 @@ details summary::-webkit-details-marker {
 .container-icons img {
     margin: 0 20px 0 20px;
 }
+.container-icons a :hover {
+    filter: invert(100%); 
+}
 .item-facebook, .item-instagram, .item-twitter {
     height: 50px;
 }
