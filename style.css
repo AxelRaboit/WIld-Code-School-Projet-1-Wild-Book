@@ -27,8 +27,8 @@ details summary {
     padding-top: 10px;
     border-radius: 4px;
     overflow: hidden;
-    background: #F09825;
-    color: white;
+    background: white;
+    color: black;
     font-family: Arial;
     font-weight: bold;
     font-size: 1.2em;
@@ -70,7 +70,6 @@ details[open] > summary::before {
     font-family: Arial;
     padding: 1em;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
-    border-top: 4px solid #F09825;
 }
 
 @keyframes fadein {
