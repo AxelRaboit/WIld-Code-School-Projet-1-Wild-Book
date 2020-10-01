@@ -71,6 +71,12 @@ p {
     margin-left: 12%;
     width: 15%;
 }
+.reseaux img {
+    transition: transform .2s;
+}
+.reseaux img:hover {
+    transform: scale(1.3);
+}
 
 details summary {
     cursor: pointer;
