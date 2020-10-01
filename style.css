@@ -160,9 +160,10 @@ details summary::-webkit-details-marker {
 }
 .container-icons img {
     margin: 0 20px 0 20px;
+    transition: all 0.3s ease;
 }
 .container-icons a :hover {
-    filter: invert(100%); 
+    filter: invert(100%);
 }
 .item-facebook, .item-instagram, .item-twitter {
     height: 50px;
