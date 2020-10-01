@@ -6,7 +6,7 @@ body {
 
 }
     .header {
-        background-color: rgb(235, 75, 75);
+        background-color: #f66c6b;
         color: white;
 
         display: flex;
@@ -117,7 +117,7 @@ details summary::-webkit-details-marker {
 }
 
 .footer {
-    background-color: rgb(235, 75, 75);
+    background-color: #f66c6b;
     color: white;;
     bottom: 0;
     display: flex;
