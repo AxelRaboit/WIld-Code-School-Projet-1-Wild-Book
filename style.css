@@ -41,6 +41,10 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+p {
+    text-align: center;
+}
 .card{
     background:lightblue;
     width: 250px;
