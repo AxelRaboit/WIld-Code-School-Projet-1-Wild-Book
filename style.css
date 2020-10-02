@@ -59,11 +59,7 @@ p {
     -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
     -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
     box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
-/*     transition: transform .2s; */
 }
-/* .card:hover {
-    transform: scale(1.1);
-} */
 .portrait {
     width: 250px;
     /* margin-top: 2%; */
