@@ -6,6 +6,9 @@ body {
     background-color: #f0f3f5;
 
 }
+
+/* Header Part */
+
     .header {
         background-color: #f66c6b;
         color: white;
@@ -37,14 +40,14 @@ body {
         font-style: italic;
     }
 
+/* End Header Part */
+
+
+/* Content Part (Cards) */
 section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-p {
-    text-align: center;
 }
 .card{
     background:rgb(255, 255, 255);
@@ -62,10 +65,12 @@ p {
 }
 .portrait {
     width: 250px;
-    /* margin-top: 2%; */
     border-radius: 12px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
+}
+p {
+    text-align: center;
 }
 .popup-title {
     font-weight: bold;
@@ -165,6 +170,11 @@ p {
     align-items: center;
     padding: 1rem;
 }
+
+/* End Content Part (Cards) */
+
+/* Footer Part */
+
 .footer h4 {
     font-size: 2rem;
     text-align: center;
@@ -187,8 +197,10 @@ p {
     height: 60px;
 }
 
+/* Footer Part */
+
 @media screen and (min-width: 761px){
-.header {
-    flex-direction: row;
-}
+    .header {
+        flex-direction: row;
+    }
 }
