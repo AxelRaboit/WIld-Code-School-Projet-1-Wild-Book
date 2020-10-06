@@ -71,6 +71,9 @@ section {
 }
 p {
     text-align: center;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 .popup-title {
     font-weight: bold;
@@ -169,6 +172,24 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+}
+h3{
+    margin: 0;
+    padding: 0%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+hr{
+    width: 80%;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+.reseaux{
+    width: 100%;
+}
+a{
+    display: inline;
 }
 
 /* End Content Part (Cards) */
