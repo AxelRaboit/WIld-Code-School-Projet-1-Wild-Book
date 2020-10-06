@@ -211,7 +211,7 @@ a{
 .container-icons a :hover {
     filter: invert(100%);
 }
-.item-facebook, .item-instagram, .item-twitter {
+.item-facebook, .item-instagram, .item-twitter, .item-linkedin {
     height: 50px;
 }
 .item-wild {
