@@ -70,5 +70,11 @@ function togglePopup(name){
     case 23:
       document.getElementById("popup-23").classList.toggle("active");
       break
+    case 24:
+      document.getElementById("popup-24").classList.toggle("active");
+      break
+    case 25:
+    document.getElementById("popup-25").classList.toggle("active");
+    break
   }
 }
