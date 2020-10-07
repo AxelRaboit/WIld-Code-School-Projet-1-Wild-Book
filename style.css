@@ -57,7 +57,6 @@ section {
     justify-content: space-between;
     align-items: center;
     margin:5%;
-
     border-radius: 12px;
     -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
     -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
@@ -75,9 +74,16 @@ p {
     padding: 1rem;
     margin-bottom: 1rem;
 }
-.popup-title {
+.content > p{
+    margin:0px;
+    padding: 0%;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.content > .popup-title {
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 .logo {
     margin-left: 12%;
@@ -109,11 +115,12 @@ p {
     background:#fff;
     border-radius: 12px;
     width:450px;
-    height:700px;
+    height:300px;
     z-index:2;
     text-align:center;
     padding:20px;
     box-sizing: border-box;
+    border-bottom: #f66c6b 30px solid;
   }
   
   .popup .close-btn {
