@@ -83,12 +83,12 @@ p {
     margin-bottom: 5px;
 }
 .logo {
-    width: 32px;
-    height: 32px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
 }
 .email, .email2, .email3, .email4, .email5, .email6, .email7, .email8, .email9, .email10, .email11, .email12, .email13
-, .email14, .email15, .email16, .email17, .email18, .email19, .email20, .email21, .email22, .email23, .email24, .email25 {    /* COPY PASTE */
+, .email14, .email15, .email16, .email17, .email18, .email19, .email20, .email21, .email22, .email23, .email24, .email25 { 
     cursor: pointer;
     
 }
