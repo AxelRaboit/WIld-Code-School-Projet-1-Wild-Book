@@ -29,9 +29,11 @@ Travail sur les animations logos/liens réseaux sociaux
  AU 06/10
  Amélioration mise en page des cards
  Ajout des cards Romain & Clément
- Modification des mailto=>copy to clipboard
+ Création d'une branche déveleoppemnt
+  =>Modification des mailto=>copy to clipboard
  Ajout data élèves sur cards
  
-
-
-
+ AU 07/10
+ Amélioration de la partie pop-up taille, disposition du texte;
+ Modification des mailto=>copy to clipboard
+ Ajout data élèves sur cards

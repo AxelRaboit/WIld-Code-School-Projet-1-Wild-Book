@@ -78,3 +78,48 @@ function togglePopup(name){
     break
   }
 }
+
+function copyToClipboard(event) {
+  event.preventDefault()
+
+  const data = event.target.getAttribute('data-copy')
+
+  const tmpTextarea = document.createElement('textarea')
+  tmpTextarea.value = data
+
+  document.body.appendChild(tmpTextarea)
+
+  tmpTextarea.select()
+  document.execCommand('copy')
+
+  document.body.removeChild(tmpTextarea)
+
+}
+
+
+document.querySelector('.logo-email').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email3').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email4').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email5').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email6').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email7').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email8').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email9').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email10').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email11').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email12').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email13').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email14').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email15').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email16').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email17').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email18').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email19').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email20').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email21').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email22').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email23').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email24').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email25').addEventListener('click', copyToClipboard)

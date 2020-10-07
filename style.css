@@ -89,6 +89,10 @@ p {
     width: 100%;
     height: auto;
 }
+.logo-email, .logo-email2, .logo-email3, .logo-email4, .logo-email5, .logo-email6, .logo-email7, .logo-email8, .logo-email9, .logo-email10, .logo-email11, .logo-email12, .logo-email13
+, .logo-email14, .logo-email15, .logo-email16, .logo-email17, .logo-email18, .logo-email19, .logo-email20, .logo-email21, .logo-email22, .logo-email23, .logo-email24, .logo-email25 {    /* COPY PASTE */
+    width: 15%;  
+}
 .reseaux {
     flex: 1;
     display: flex;
