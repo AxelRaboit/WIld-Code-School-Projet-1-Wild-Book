@@ -37,5 +37,6 @@ AU 01/10
  AU 07/10
   - Amélioration de la taille du pop up, disposition du texte, et un peu de style.
   - Correction des bugs.
+  - Ajout Pop up lorsque l'on a copié l'email, celà fait un popup de validation (vert) pour confirmer la copie de ce dernier.
   - Travail sur la préparation du contenu géré par le JavaScript.
  
