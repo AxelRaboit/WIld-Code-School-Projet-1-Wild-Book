@@ -35,7 +35,5 @@ Travail sur les animations logos/liens réseaux sociaux
  
  AU 07/10
  Amélioration de la partie pop-up taille, disposition du texte;
- 
-
-
-
+ Modification des mailto=>copy to clipboard
+ Ajout data élèves sur cards
