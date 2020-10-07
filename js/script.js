@@ -79,6 +79,8 @@ function togglePopup(name){
   }
 }
 
+// COPY TO CLIPBOARD
+
 function copyToClipboard(event) {
   event.preventDefault()
 
@@ -123,7 +125,6 @@ document.querySelector('.email22').addEventListener('click', copyToClipboard)
 document.querySelector('.email23').addEventListener('click', copyToClipboard)
 document.querySelector('.email24').addEventListener('click', copyToClipboard)
 document.querySelector('.email25').addEventListener('click', copyToClipboard)
-
 
 //Notyf Part: Function to add an event when we click on the email button
 
