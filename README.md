@@ -25,6 +25,13 @@ Travail sur le pop-up en jS(?)(toujours en chantier pour la V2)
   création fonction du pop-up
 Travail sur les animations logos/liens réseaux sociaux
   ajout de transitions et transformation(scale)
+ 
+ AU 06/10
+ Amélioration mise en page des cards
+ Ajout des cards Romain & Clément
+ Modification des mailto=>copy to clipboard
+ Ajout data élèves sur cards
+ 
 
 
 
