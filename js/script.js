@@ -123,3 +123,22 @@ document.querySelector('.email22').addEventListener('click', copyToClipboard)
 document.querySelector('.email23').addEventListener('click', copyToClipboard)
 document.querySelector('.email24').addEventListener('click', copyToClipboard)
 document.querySelector('.email25').addEventListener('click', copyToClipboard)
+
+
+//Notyf Part
+
+function notyfCopyOnClick() {
+  
+  const notyf = new Notyf({
+    duration: 4000,
+    position: {
+      x: 'right',
+      y: 'top',
+    }
+  })
+  
+  notyf.success({
+    message: 'Email copied',
+    duration: 3000,
+  })
+}
