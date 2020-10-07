@@ -209,7 +209,7 @@ a {
 /* Footer Part */
 
 .footer h4 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 .container-icons {
@@ -217,7 +217,7 @@ a {
     align-items: center;
 }
 .container-icons img {
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
     transition: all 0.3s ease;
 }
 .container-icons a :hover {
@@ -235,5 +235,11 @@ a {
 @media screen and (min-width: 761px){
     .header {
         flex-direction: row;
+    }
+    .container-icons img {
+        margin: 0 20px 0 20px;
+    }
+    .footer h4 {
+        font-size: 2rem;
     }
 }
