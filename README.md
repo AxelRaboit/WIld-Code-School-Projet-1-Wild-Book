@@ -10,7 +10,7 @@ AU 30/09
   - Prise des photos et edition sur photoshop.
   - Création Index.html avec header, section & cards, footer.
   - Utilisation de la balise "details" et "summary" pour création d'un pop-up en Html/Css (qui au final a été abandonné au profit de JS)
-  - Création et mise à disposition des élèves d'un fichier Google pour récupérer données 
+  - Mise à disposition des élèves d'un fichier Google pour récupérer données 
   - Création du style CSS
   - Utilisation de flexbox en pensant mobile first
   - Travail sur le responsive
