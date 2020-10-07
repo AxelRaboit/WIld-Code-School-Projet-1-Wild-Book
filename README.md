@@ -11,16 +11,16 @@ AU 30/09
   - Création Index.html avec header, section & cards, footer.
   - Utilisation de la balise "details" et "summary" pour création d'un pop-up en Html/Css (qui au final a été abandonné au profit de JS)
   - Mise à disposition des élèves d'un fichier Google pour récupérer données 
-  - Création du style CSS
+  - Création du fichier CSS et JS
   - Utilisation de flexbox en pensant mobile first
-  - Travail sur le responsive
+  - Travail sur le responsive avec les medias queries
 
 AU 01/10
   - Mise en page des cartes V1
+  - Récupération des datas des élèves
+  - Recherche de mise en page
   - Présentation des données élèves
   - Mise en place des photos
-  - Recherche de mise en page
-  - Récupération des datas des élèves
   - Insertion des datas dans les cards
   - Travail sur le pop-up en JS
   - Création fonction du pop-up pour le faire fonctionner
