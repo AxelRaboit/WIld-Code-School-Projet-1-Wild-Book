@@ -86,12 +86,14 @@ p {
     margin-bottom: 5px;
 }
 .logo {
-    width: 100%;
-    height: auto;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
 }
-.logo-email, .logo-email2, .logo-email3, .logo-email4, .logo-email5, .logo-email6, .logo-email7, .logo-email8, .logo-email9, .logo-email10, .logo-email11, .logo-email12, .logo-email13
-, .logo-email14, .logo-email15, .logo-email16, .logo-email17, .logo-email18, .logo-email19, .logo-email20, .logo-email21, .logo-email22, .logo-email23, .logo-email24, .logo-email25 {    /* COPY PASTE */
-    width: 15%;  
+.email, .email2, .email3, .email4, .email5, .email6, .email7, .email8, .email9, .email10, .email11, .email12, .email13
+, .email14, .email15, .email16, .email17, .email18, .email19, .email20, .email21, .email22, .email23, .email24, .email25 {    /* COPY PASTE */
+    cursor: pointer;
+    
 }
 .reseaux {
     flex: 1;
