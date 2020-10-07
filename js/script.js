@@ -79,7 +79,7 @@ function togglePopup(name){
   }
 }
 
- function copyToClipboard(event) {
+function copyToClipboard(event) {
   event.preventDefault()
 
   const data = event.target.getAttribute('data-copy')
@@ -123,5 +123,3 @@ document.querySelector('.logo-email22').addEventListener('click', copyToClipboar
 document.querySelector('.logo-email23').addEventListener('click', copyToClipboard)
 document.querySelector('.logo-email24').addEventListener('click', copyToClipboard)
 document.querySelector('.logo-email25').addEventListener('click', copyToClipboard)
-
-

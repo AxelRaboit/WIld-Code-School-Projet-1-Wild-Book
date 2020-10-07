@@ -54,10 +54,8 @@ section {
     width: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     margin:5%;
-
     border-radius: 12px;
     -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
     -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
@@ -68,25 +66,49 @@ section {
     border-radius: 12px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
+    margin-bottom: 1rem;
 }
 p {
     text-align: center;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
-.popup-title {
+.content > p{
+    margin:0px;
+    padding: 0%;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.content > .popup-title {
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 .logo {
-    margin-left: 12%;
-    width: 15%;
+    width: 100%;
+    height: auto;
 }
 .logo-email, .logo-email2, .logo-email3, .logo-email4, .logo-email5, .logo-email6, .logo-email7, .logo-email8, .logo-email9, .logo-email10, .logo-email11, .logo-email12, .logo-email13
 , .logo-email14, .logo-email15, .logo-email16, .logo-email17, .logo-email18, .logo-email19, .logo-email20, .logo-email21, .logo-email22, .logo-email23, .logo-email24, .logo-email25 {    /* COPY PASTE */
-    margin-left: 12%;
     width: 15%;
+    
+}
+.reseaux {
+    flex: 1;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.reseaux a {
+    width: 2rem;
+}
+.reseaux button {
+    width: 100%;
 }
 .reseaux img {
-    cursor: pointer;
     transition: transform .2s;
 }
 .reseaux img:hover {
@@ -112,11 +134,12 @@ p {
     background:#fff;
     border-radius: 12px;
     width:450px;
-    height:700px;
+    height:300px;
     z-index:2;
     text-align:center;
     padding:20px;
     box-sizing: border-box;
+    border-bottom: #f66c6b 30px solid;
   }
   
   .popup .close-btn {
@@ -176,13 +199,26 @@ p {
     align-items: center;
     padding: 1rem;
 }
+hr {
+    width: 80%;
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+
+.contact{
+    font-size: 2rem;
+}
+
+a {
+    display: inline;
+}
 
 /* End Content Part (Cards) */
 
 /* Footer Part */
 
 .footer h4 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 .container-icons {
@@ -190,7 +226,7 @@ p {
     align-items: center;
 }
 .container-icons img {
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
     transition: all 0.3s ease;
 }
 .container-icons a :hover {
@@ -208,5 +244,11 @@ p {
 @media screen and (min-width: 761px){
     .header {
         flex-direction: row;
+    }
+    .container-icons img {
+        margin: 0 20px 0 20px;
+    }
+    .footer h4 {
+        font-size: 2rem;
     }
 }
