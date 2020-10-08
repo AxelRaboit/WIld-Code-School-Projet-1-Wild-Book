@@ -1,5 +1,7 @@
 let name = 0
+// document.getElementById("popup-1").classList.toggle("active");
 function togglePopup(name) {
+  
   switch (name) {
     case 1:
       document.getElementById("popup-1").classList.toggle("active");
@@ -97,32 +99,32 @@ function copyToClipboard(event) {
 }
 
 
-// document.querySelector('.logo-email').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email3').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email4').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email5').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email6').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email7').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email8').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email9').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email10').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email11').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email12').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email13').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email14').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email15').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email16').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email17').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email18').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email19').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email20').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email21').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email22').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email23').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email24').addEventListener('click', copyToClipboard)
-// document.querySelector('.logo-email25').addEventListener('click', copyToClipboard)
+document.querySelector('.logoEmail').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email3').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email4').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email5').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email6').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email7').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email8').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email9').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email10').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email11').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email12').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email13').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email14').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email15').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email16').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email17').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email18').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email19').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email20').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email21').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email22').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email23').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email24').addEventListener('click', copyToClipboard)
+document.querySelector('.logo-email25').addEventListener('click', copyToClipboard)
 
 
 function card() {
@@ -224,16 +226,16 @@ function card() {
 
   {
     portrait: "img/pictures-profile/adrien.jpg",
-    altPortrait: "Portrait Adrien Thouve",
+    altPortrait: "Portrait Adrien THOUVENIN",
     name: "Adrien THOUVENIN",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Développeur Web Back End PHP/Symfony",
+    mobility: "Reims, Epernay, Châlons-en-Champagne, Paris (à étudier), véhiculé.",
+    linkLinkedin: "https://www.linkedin.com/in/adrien-thouvenin-a42b101a2/",
+    linkEmail: "adaura51@gmail.com",
+    linkGitHub: "https://github.com/AdThouv",
+    beforeWcsDesc: "Boucher / Charcutier / Traiteur en grande surface.",
+    goal: "Intégrer une entreprise pour s'épanouir dans les métiers de Développement. Réaliser des projets variés.",
+    character: "Dynamique, investi , joyeux.", 
   },
 
   {
@@ -266,128 +268,128 @@ function card() {
   
   {
     portrait: "img/pictures-profile/christopher.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Christopher PERSINET",
     name: "Christopher PERSINET",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Développeur Web Back End PHP/Synfony",
+    mobility: "Peux déménager s'il le faut.",
+    linkLinkedin: "https://www.linkedin.com/in/christopher-persinet/",
+    linkEmail: "christopherpersinet@gmail.com",
+    linkGitHub: "https://github.com/Christopher-persinet",
+    beforeWcsDesc: "ELS/vendeur à boulanger.",
+    goal: "ELS/vendeur à boulanger.",
+    character: "Motivé, Bienveillant, Travailleur.", 
   },
   
   {
     portrait: "img/pictures-profile/charlie.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Charlie GNIADZIK",
     name: "Charlie GNIADZIK",
     position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    mobility: "Chalons en Champagne; 50km max. alentours.",
+    linkLinkedin: "https://www.linkedin.com/in/charlie-g-384b651b6/",
+    linkEmail: "gnidzik.charlie@gmail.com",
+    linkGitHub: "https://github.com/Machou",
+    beforeWcsDesc: "Père au foyer.",
+    goal: "Devenir développeur web confirmé dans une entreprise du CAC40.",
+    character: "Joyeux, intègre, curieux.", 
   },
 
   {
     portrait: "img/pictures-profile/damien.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Damien LAMBERT",
     name: "Damien LAMBERT",
     position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    mobility: "Reims et 50km aux alentours, véhiculé.",
+    linkLinkedin: "https://www.linkedin.com/in/damien-lambert-98b2b01b8/",
+    linkEmail: "damien.lambert999@gmail.com",
+    linkGitHub: "https://github.com/Damien008",
+    beforeWcsDesc: "Vendeur technique en hypermarché.",
+    goal: "Pouvoir intégrer une entreprise en tant que développeur web.",
+    character: "Ponctuel, motivé, joyeux.", 
   },
 
   {
     portrait: "img/pictures-profile/denis.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Denis CÎRLAN",
     name: "Denis CÎRLAN",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Développeur Web FullStack",
+    mobility: "Reims et ses alentours, Paris, l'étranger potentiellement, véhiculé.",
+    linkLinkedin: "https://www.linkedin.com/in/denis-c%C3%AErlan-9732aa1b8/",
+    linkEmail: "kirlan@hotmail.fr",
+    linkGitHub: "https://github.com/dcirlan",
+    beforeWcsDesc: "Agent de sécurité incendie.",
+    goal: "Démarrer un nouveau chapitre: enfin trouver un métier qui lui plaît, et apporter de la stabilité dans sa vie.",
+    character: "Curieux, polyvalent, à l'écoute, stable", 
   },
 
   {
     portrait: "img/pictures-profile/enzo.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Enzo GAUDRY",
     name: "Enzo GAUDRY",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Développeur web",
+    mobility: "Reims et ses alentours.",
+    linkLinkedin: "https://www.linkedin.com/in/enzogaudry/",
+    linkEmail: "enzogaudry1@gmail.com",
+    linkGitHub: "https://github.com/EnzoGaudry",
+    beforeWcsDesc: "Intérimaire.",
+    goal: "Trouver un job en tant que développeur web et refaire 42",
+    character: "Curieux, motivé, patient.", 
   },
   
   {
-    portrait: "img/pictures-profile/ilyes.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    portrait: "img/pictures-profile/Ilyes.jpg",
+    altPortrait: "Portrait Ilyes RAHIM",
     name: "Ilyes RAHIM",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Développeur Web FullStack",
+    mobility: "Reims et ses alentours.",
+    linkLinkedin: "https://www.linkedin.com/in/ilyes-rahim-aa30291b6/",
+    linkEmail: "ilyesrahimdev@gmail.com",
+    linkGitHub: "https://github.com/lyesi",
+    beforeWcsDesc: "Etait au lycée en filière scientifique",
+    goal: "Être développeur web FullStack avec une bonne équipe.",
+    character: "Plein de ressources, bienveillant, à l'écoute des autres.", 
   },
 
   {
     portrait: "img/pictures-profile/leandre.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Léandre Gaden",
     name: "Léandre GADEN",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Chef de projet-création de produit",
+    mobility: "Reims, Strasbourg.",
+    linkLinkedin: "https://www.linkedin.com/in/l%C3%A9andre-gaden-2913ba19b/",
+    linkEmail: "leandre.gaden@gmail.com",
+    linkGitHub: "https://github.com/Mortaag",
+    beforeWcsDesc: "Etudiant à NEOMA Business School.",
+    goal: "Intégrer une grande entreprise.",
+    character: "Motivé, impliqué, sérieux.", 
   },
 
   {
     portrait: "img/pictures-profile/morgane.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Morgane JUMEL",
     name: "Morgane JUMEL",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Développeuse web",
+    mobility: "Marne et Île-de-France pour le moment, véhiculée",
+    linkLinkedin: "https://www.linkedin.com/in/morgane-jumel-7b86041b5/",
+    linkEmail: "jumel.morgane@gmail.com",
+    linkGitHub: "https://github.com/MorganeJumel",
+    beforeWcsDesc: "Divers métiers dans le tourisme (agent d'escale, réceptionniste)",
+    goal: "Trouver un métier enrichissant qui m'apporterait une certaine stabilité.",
+    character: "Sérieuse, empathique, travail en équipe.", 
   },
 
   {
     portrait: "img/pictures-profile/massintha.jpg",
-    altPortrait: "Portrait Adeline Beaufils",
+    altPortrait: "Portrait Massintha AIT BRAHAM",
     name: "Massintha AIT BRAHAM",
-    position: "Développeus web",
-    mobility: "30 minutes en voiture autour de Reim, 15 minutes autour de la gare de l'Est",
-    linkLinkedin: "https://www.linkedin.com/in/adeline-beaufils-6382b61b8/",
-    linkEmail: "adeline.beaufils@gmail.com",
-    linkGitHub: "https://github.com/Adeline-BEAUFILS",
-    beforeWcsDesc: "Approvisionneuse, Logisticienne",
-    goal: "S'épanouir dans sa reconversion",
-    character: "Curieuse, Polyvalente, Atypique", 
+    position: "Développeur web",
+    mobility: "France et alentours.",
+    linkLinkedin: "https://www.linkedin.com/in/massinta-ait-braham-016198172/",
+    linkEmail: "massinta.ait-braham@gmail.com",
+    linkGitHub: "https://github.com/MassintaAitBraham",
+    beforeWcsDesc: "Educateur sportif",
+    goal: "intégrer une équipe afin de commencer le travail.",
+    character: "motivé, curieux, travail d'équipe.", 
   },
   
   {
@@ -490,7 +492,7 @@ function card() {
     article.querySelector('.portrait').src = peopleData.portrait
     article.querySelector('.portrait').alt = peopleData.altPortrait
     article.querySelector('.name').textContent = peopleData.name
-    article.querySelector('.name').id = 'hello'
+    article.querySelector('.popup').id = i
     article.querySelector('.position').textContent = peopleData.position
     article.querySelector('.mobility').textContent = peopleData.mobility
     article.querySelector('.linkedin').href = peopleData.linkLinkedin
@@ -518,7 +520,7 @@ function card() {
 
 //Notyf Part: Function to add an event when we click on the email button
 
-/* function notyfCopyOnClick() {
+function notyfCopyOnClick() {
 
   const notyf = new Notyf({
     duration: 4000,
@@ -532,4 +534,4 @@ function card() {
     message: 'Email copié',
     duration: 3000,
   })
-} */
+}
