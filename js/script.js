@@ -355,27 +355,6 @@ function card() {
     beforeWcsDesc: "Etudiant à NEOMA Business School.",
     goal: "Finir ses études de commerce et rejoindre une grande entreprise.",
     character: "Curieux, bienveillant et ambitieux.", 
-  },
-
-  {
-    portrait: "img/pictures-profile/romain.jpg",
-    altPortrait: "Portrait Romain GUILLEMOT",
-    name: "Romain GUILLEMOT",
-    position: "Formateur",
-    linkLinkedin: "https://www.linkedin.com/in/rguillemot/",
-    linkEmail: "wasthishelpful@gmail.com",
-    linkGitHub: "https://github.com/rocambille",
-    /* Definir Description popup */ 
-  },
-  
-  {
-    portrait: "img/pictures-profile/clement.jpg",
-    altPortrait: "Portrait Clément BECHETOILLE",
-    name: "Clément BECHETOILLE",
-    position: "Campus Manager",
-    linkLinkedin: "https://www.linkedin.com/in/clementbechetoille/?locale=fr_FR",
-    linkEmail: "clement.bechetoille@wildcodeschool.com",
-    /* Definir Description popup */
   }
   ]
 
