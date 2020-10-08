@@ -418,4 +418,4 @@ function notyfCopyOnClick() {
 document.querySelector(".infoRomain").addEventListener('click', togglePopup)
 document.querySelector('.close-btn').addEventListener("click", togglePopup)
 document.querySelector(".infoClement").addEventListener('click', togglePopup)
-document.querySelector('.test').addEventListener("click", togglePopup)
+document.querySelector('.clement').addEventListener("click", togglePopup)
