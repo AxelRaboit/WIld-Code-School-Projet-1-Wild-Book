@@ -161,7 +161,22 @@ p {
       display: flex;
       width: 100%;
       flex-direction: column;
+      margin-top: 30px;
       
+  }
+  .popupTitleWCS, .popupTitleFuture, .popupTitleCharactere {
+      font-weight: bold;
+  } 
+  .popupTitleInfo {
+      display: flex;
+      justify-content: left;
+      flex-wrap: wrap;
+      font-weight: bold
+
+  }
+  .popupContent {
+      display: flex;
+      justify-content: space-around;
   }
   
   .popup .close-btn {
