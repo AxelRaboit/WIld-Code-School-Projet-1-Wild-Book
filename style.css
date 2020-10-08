@@ -164,13 +164,14 @@ p {
       margin-top: 30px;
       
   }
-  .popupTitleWCS, .popupTitleFuture {
+  .popupTitleWCS, .popupTitleFuture, .popupTitleCharactere {
       font-weight: bold;
   } 
-  .popupTitleCharactere {
+  .popupTitleInfo {
       display: flex;
       justify-content: left;
       flex-wrap: wrap;
+      font-weight: bold
 
   }
   .popupContent {
