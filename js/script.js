@@ -1,90 +1,9 @@
 let name = 0
 // document.getElementById("popup-1").classList.toggle("active");
-function togglePopup(name) {
-  
-  switch (name) {
-    case 1:
-      document.getElementById("popup-1").classList.toggle("active");
-      break
-    case 2:
-      document.getElementById("popup-2").classList.toggle("active");
-      break
-    case 3:
-      document.getElementById("popup-3").classList.toggle("active");
-      break
-    case 4:
-      document.getElementById("popup-4").classList.toggle("active");
-      break
-    case 5:
-      document.getElementById("popup-5").classList.toggle("active");
-      break
-    case 6:
-      document.getElementById("popup-6").classList.toggle("active");
-      break
-    case 7:
-      document.getElementById("popup-7").classList.toggle("active");
-      break
-    case 8:
-      document.getElementById("popup-8").classList.toggle("active");
-      break
-    case 9:
-      document.getElementById("popup-9").classList.toggle("active");
-      break
-    case 10:
-      document.getElementById("popup-10").classList.toggle("active");
-      break
-    case 11:
-      document.getElementById("popup-11").classList.toggle("active");
-      break
-    case 12:
-      document.getElementById("popup-12").classList.toggle("active");
-      break
-    case 13:
-      document.getElementById("popup-13").classList.toggle("active");
-      break
-    case 14:
-      document.getElementById("popup-14").classList.toggle("active");
-      break
-    case 15:
-      document.getElementById("popup-15").classList.toggle("active");
-      break
-    case 16:
-      document.getElementById("popup-16").classList.toggle("active");
-      break
-    case 17:
-      document.getElementById("popup-17").classList.toggle("active");
-      break
-    case 18:
-      document.getElementById("popup-18").classList.toggle("active");
-      break
-    case 19:
-      document.getElementById("popup-19").classList.toggle("active");
-      break
-    case 20:
-      document.getElementById("popup-20").classList.toggle("active");
-      break
-    case 21:
-      document.getElementById("popup-21").classList.toggle("active");
-      break
-    case 22:
-      document.getElementById("popup-22").classList.toggle("active");
-      break
-    case 23:
-      document.getElementById("popup-23").classList.toggle("active");
-      break
-    case 24:
-      document.getElementById("popup-24").classList.toggle("active");
-      break
-    case 25:
-      document.getElementById("popup-25").classList.toggle("active");
-      break
-  }
-}
-
 function copyToClipboard(event) {
   event.preventDefault()
 
-  const data = event.target.getAttribute('dataCopy')
+  const data = event.target.dataset.copy
 
   const tmpTextarea = document.createElement('textarea')
   tmpTextarea.value = data
@@ -98,33 +17,6 @@ function copyToClipboard(event) {
 
 }
 
-
-document.querySelector('.logoEmail').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email3').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email4').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email5').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email6').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email7').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email8').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email9').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email10').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email11').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email12').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email13').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email14').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email15').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email16').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email17').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email18').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email19').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email20').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email21').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email22').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email23').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email24').addEventListener('click', copyToClipboard)
-document.querySelector('.logo-email25').addEventListener('click', copyToClipboard)
 
 
 function card() {
@@ -284,7 +176,7 @@ function card() {
     portrait: "img/pictures-profile/charlie.jpg",
     altPortrait: "Portrait Charlie GNIADZIK",
     name: "Charlie GNIADZIK",
-    position: "Développeus web",
+    position: "Développeur web",
     mobility: "Chalons en Champagne; 50km max. alentours.",
     linkLinkedin: "https://www.linkedin.com/in/charlie-g-384b651b6/",
     linkEmail: "gnidzik.charlie@gmail.com",
@@ -298,7 +190,7 @@ function card() {
     portrait: "img/pictures-profile/damien.jpg",
     altPortrait: "Portrait Damien LAMBERT",
     name: "Damien LAMBERT",
-    position: "Développeus web",
+    position: "Développeur web",
     mobility: "Reims et 50km aux alentours, véhiculé.",
     linkLinkedin: "https://www.linkedin.com/in/damien-lambert-98b2b01b8/",
     linkEmail: "damien.lambert999@gmail.com",
@@ -498,7 +390,7 @@ function card() {
     article.querySelector('.linkedin').href = peopleData.linkLinkedin
     article.querySelector('.logoLinkedin').src = logoLinkedin
     article.querySelector('.logoLinkedin').alt = altLinkedin
-    article.querySelector('.logoEmail').dataCopy = peopleData.linkEmail
+    article.querySelector('.logoEmail').dataset.copy = peopleData.linkEmail
     article.querySelector('.logoEmail').src = logoEmail
     article.querySelector('.logoEmail').alt = altEmail
     article.querySelector('.github').href = peopleData.linkGitHub
@@ -512,7 +404,7 @@ function card() {
     article.querySelector('.popupTitleCharactere').textContent = titleCharacter
     article.querySelector('.character').textContent = peopleData.character
 
-    // article.querySelector('p').addEventListener('click', function(event) {alert(peopleData.name)})
+    article.querySelector('.logoEmail').addEventListener('click', copyToClipboard)
 
     document.querySelector(".container").appendChild(article)
   }
