@@ -46,18 +46,7 @@ body {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-#container{
-    background:#f0f3f5;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    margin:20px;
-    border-radius: 12px;
-    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
-    -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
-    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
+    
 }
 .portrait {
     width: 100%;
@@ -67,6 +56,9 @@ body {
     margin-bottom: 1rem;
 }
 .cardTemplate{
+    -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
+    box-shadow: 0px 0px 20px -6px rgba(0,0,0,0.71);
     width: 250px;
     margin: 1rem;
     background-color: #ffffff;
@@ -94,8 +86,8 @@ p {
     margin-bottom: 5px;
 }
 .logoLinkedin, .logoGithub, .logoEmail {
-    width: 32px;
-    height: 32px;
+    width: 42px;
+    height: 42px;
     cursor: pointer;
 }
 .email, .email2, .email3, .email4, .email5, .email6, .email7, .email8, .email9, .email10, .email11, .email12, .email13
@@ -142,7 +134,7 @@ p {
     transform:translate(-50%,-50%) scale(0);
     background:#fff;
     border-radius: 12px;
-    width:450px;
+    width:300px;
     height:300px;
     z-index:2;
     text-align:center;
@@ -215,7 +207,7 @@ p {
     border-radius: 0 0 12px 12px;
   }
   button:hover {
-    background-color: #c52626;
+    background-color: #cc5656;
   }
 
 .footer {
@@ -267,6 +259,25 @@ a {
 .item-wild {
     height: 60px;
 }
+.depotStageButton {
+    font-weight: bold;
+    background-color: white;
+    color:  #f66c6b;;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin: 22px 0px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+.depotStageButton:hover {
+    color: white;
+    background-color: #cc5656;
+}
+.footerMessage {
+    font-size: 0.9rem;
+}
 
 /* Footer Part */
 
@@ -291,5 +302,8 @@ a {
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .popup .content{
+        width: 450px;
     }
 }
