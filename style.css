@@ -86,8 +86,8 @@ p {
     margin-bottom: 5px;
 }
 .logoLinkedin, .logoGithub, .logoEmail {
-    width: 32px;
-    height: 32px;
+    width: 42px;
+    height: 42px;
     cursor: pointer;
 }
 .email, .email2, .email3, .email4, .email5, .email6, .email7, .email8, .email9, .email10, .email11, .email12, .email13
@@ -187,7 +187,7 @@ p {
     border-radius: 0 0 12px 12px;
   }
   button:hover {
-    background-color: #c52626;
+    background-color: #cc5656;
   }
 
 .footer {
