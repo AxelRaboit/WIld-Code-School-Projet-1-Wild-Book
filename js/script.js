@@ -139,7 +139,7 @@ function notyfCopyOnClick() {
   })
   
   notyf.success({
-    message: 'Email copied',
+    message: 'Email copié',
     duration: 3000,
   })
 }
