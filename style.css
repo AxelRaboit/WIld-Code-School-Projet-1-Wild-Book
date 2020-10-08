@@ -164,9 +164,19 @@ p {
       margin-top: 30px;
       
   }
-  .popupTitleWCS, .popupTitleFuture, .popupTitleCharactere {
+  .popupTitleWCS, .popupTitleFuture {
       font-weight: bold;
   } 
+  .popupTitleCharactere {
+      display: flex;
+      justify-content: left;
+      flex-wrap: wrap;
+
+  }
+  .popupContent {
+      display: flex;
+      justify-content: space-around;
+  }
   
   .popup .close-btn {
     cursor:pointer;
