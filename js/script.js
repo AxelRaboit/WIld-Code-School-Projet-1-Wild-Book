@@ -403,7 +403,6 @@ function card() {
 function notyfCopyOnClick() {
 
   const notyf = new Notyf({
-    duration: 4000,
     position: {
       x: 'right',
       y: 'top',
@@ -416,6 +415,7 @@ function notyfCopyOnClick() {
   })
 }
 
+//Info / Close button for Romain and Clément.
 
 document.querySelector(".infoRomain").addEventListener('click', togglePopup)
 document.querySelector('.close-btn').addEventListener("click", togglePopup)
