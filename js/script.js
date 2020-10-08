@@ -1,3 +1,5 @@
+//Copy to ClipBoard
+
 function togglePopup(event){
   document.querySelector(".popup[data-index='" + event.target.dataset.index + "']").classList.toggle("active");
 }
@@ -20,7 +22,7 @@ function copyToClipboard(event) {
 
 }
 
-
+//Data Cards
 
 function card() {
   
@@ -31,9 +33,9 @@ function card() {
   const altEmail = "Logo Email"
   const logoGitHub = "img/cards/githubicon.png"
   const altGitHub = "Logo GitHub"
-  const wcs = "Avant la WCS :"
-  const future = "Objectif futur"
-  const titleCharacter = "Traits de caractère"
+  const wcs = "Avant la WCS: "
+  const future = "Objectif futur: "
+  const titleCharacter = "Traits de caractère: "
 
   const people = [{
     portrait: "img/pictures-profile/adeline.jpg",
