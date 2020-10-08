@@ -1,91 +1,90 @@
 let name = 0
 // document.getElementById("popup-1").classList.toggle("active");
 function togglePopup(name) {
-  
   switch (name) {
     case 1:
-      document.getElementById("popup-1").classList.toggle("active");
+      document.getElementById("popup-0").classList.toggle("active");
       break
     case 2:
-      document.getElementById("popup-2").classList.toggle("active");
+      document.getElementById("popup-1").classList.toggle("active");
       break
     case 3:
-      document.getElementById("popup-3").classList.toggle("active");
+      document.getElementById("popup-2").classList.toggle("active");
       break
     case 4:
-      document.getElementById("popup-4").classList.toggle("active");
+      document.getElementById("popup-3").classList.toggle("active");
       break
     case 5:
-      document.getElementById("popup-5").classList.toggle("active");
+      document.getElementById("popup-4").classList.toggle("active");
       break
     case 6:
-      document.getElementById("popup-6").classList.toggle("active");
+      document.getElementById("popup-5").classList.toggle("active");
       break
     case 7:
-      document.getElementById("popup-7").classList.toggle("active");
+      document.getElementById("popup-6").classList.toggle("active");
       break
     case 8:
-      document.getElementById("popup-8").classList.toggle("active");
+      document.getElementById("popup-7").classList.toggle("active");
       break
     case 9:
-      document.getElementById("popup-9").classList.toggle("active");
+      document.getElementById("popup-8").classList.toggle("active");
       break
     case 10:
-      document.getElementById("popup-10").classList.toggle("active");
+      document.getElementById("popup-9").classList.toggle("active");
       break
     case 11:
-      document.getElementById("popup-11").classList.toggle("active");
+      document.getElementById("popup-10").classList.toggle("active");
       break
     case 12:
-      document.getElementById("popup-12").classList.toggle("active");
+      document.getElementById("popup-11").classList.toggle("active");
       break
     case 13:
-      document.getElementById("popup-13").classList.toggle("active");
+      document.getElementById("popup-12").classList.toggle("active");
       break
     case 14:
-      document.getElementById("popup-14").classList.toggle("active");
+      document.getElementById("popup-13").classList.toggle("active");
       break
     case 15:
-      document.getElementById("popup-15").classList.toggle("active");
+      document.getElementById("popup-14").classList.toggle("active");
       break
     case 16:
-      document.getElementById("popup-16").classList.toggle("active");
+      document.getElementById("popup-15").classList.toggle("active");
       break
     case 17:
-      document.getElementById("popup-17").classList.toggle("active");
+      document.getElementById("popup-16").classList.toggle("active");
       break
     case 18:
-      document.getElementById("popup-18").classList.toggle("active");
+      document.getElementById("popup-17").classList.toggle("active");
       break
     case 19:
-      document.getElementById("popup-19").classList.toggle("active");
+      document.getElementById("popup-18").classList.toggle("active");
       break
     case 20:
-      document.getElementById("popup-20").classList.toggle("active");
+      document.getElementById("popup-19").classList.toggle("active");
       break
     case 21:
-      document.getElementById("popup-21").classList.toggle("active");
+      document.getElementById("popup-20").classList.toggle("active");
       break
     case 22:
-      document.getElementById("popup-22").classList.toggle("active");
+      document.getElementById("popup-21").classList.toggle("active");
       break
     case 23:
-      document.getElementById("popup-23").classList.toggle("active");
+      document.getElementById("popup-22").classList.toggle("active");
       break
     case 24:
-      document.getElementById("popup-24").classList.toggle("active");
+      document.getElementById("popup-23").classList.toggle("active");
       break
     case 25:
-      document.getElementById("popup-25").classList.toggle("active");
+      document.getElementById("popup-24").classList.toggle("active");
       break
   }
 }
 
 function copyToClipboard(event) {
   event.preventDefault()
-
+  console.log("hello")
   const data = event.target.getAttribute('dataCopy')
-
+  console.log(data)
   const tmpTextarea = document.createElement('textarea')
   tmpTextarea.value = data
 
@@ -99,7 +98,7 @@ function copyToClipboard(event) {
 }
 
 
-document.querySelector('.logoEmail').addEventListener('click', copyToClipboard)
+document.querySelector('.logoEmail1').addEventListener('click', copyToClipboard)
 document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
 document.querySelector('.logo-email3').addEventListener('click', copyToClipboard)
 document.querySelector('.logo-email2').addEventListener('click', copyToClipboard)
@@ -492,13 +491,16 @@ function card() {
     article.querySelector('.portrait').src = peopleData.portrait
     article.querySelector('.portrait').alt = peopleData.altPortrait
     article.querySelector('.name').textContent = peopleData.name
-    article.querySelector('.popup').id = i
+    article.querySelector('.popup').id = `popup-${i}`
+    article.querySelector('.test').setAttribute("onclick", `togglePopup(${i+1})`)
+    article.querySelector('.close-btn').setAttribute("onclick", `togglePopup(${i+1})`)
+    article.querySelector('.logoEmail').setAttribute("onclick", `notyfCopyOnClick(${i+1})`)
     article.querySelector('.position').textContent = peopleData.position
     article.querySelector('.mobility').textContent = peopleData.mobility
     article.querySelector('.linkedin').href = peopleData.linkLinkedin
     article.querySelector('.logoLinkedin').src = logoLinkedin
     article.querySelector('.logoLinkedin').alt = altLinkedin
-    article.querySelector('.logoEmail').dataCopy = peopleData.linkEmail
+    article.querySelector('.logoEmail').setAttribute("data-copy", peopleData.linkEmail)
     article.querySelector('.logoEmail').src = logoEmail
     article.querySelector('.logoEmail').alt = altEmail
     article.querySelector('.github').href = peopleData.linkGitHub
@@ -511,7 +513,6 @@ function card() {
     article.querySelector('.goal').textContent = peopleData.goal
     article.querySelector('.popupTitleCharactere').textContent = titleCharacter
     article.querySelector('.character').textContent = peopleData.character
-
     // article.querySelector('p').addEventListener('click', function(event) {alert(peopleData.name)})
 
     document.querySelector(".container").appendChild(article)
@@ -535,3 +536,7 @@ function notyfCopyOnClick() {
     duration: 3000,
   })
 }
+
+
+
+
