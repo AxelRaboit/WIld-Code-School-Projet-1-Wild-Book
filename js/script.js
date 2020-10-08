@@ -265,7 +265,7 @@ function card() {
   },
   
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/christopher.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Christopher PERSINET",
     position: "Développeus web",
@@ -279,7 +279,7 @@ function card() {
   },
   
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/charlie.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Charlie GNIADZIK",
     position: "Développeus web",
@@ -293,7 +293,7 @@ function card() {
   },
 
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/damien.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Damien LAMBERT",
     position: "Développeus web",
@@ -307,7 +307,7 @@ function card() {
   },
 
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/denis.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Denis CÎRLAN",
     position: "Développeus web",
@@ -321,7 +321,7 @@ function card() {
   },
 
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/enzo.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Enzo GAUDRY",
     position: "Développeus web",
@@ -335,7 +335,7 @@ function card() {
   },
   
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/ilyes.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Ilyes RAHIM",
     position: "Développeus web",
@@ -349,7 +349,7 @@ function card() {
   },
 
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/leandre.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Léandre GADEN",
     position: "Développeus web",
@@ -363,7 +363,7 @@ function card() {
   },
 
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/morgane.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Morgane JUMEL",
     position: "Développeus web",
@@ -377,7 +377,7 @@ function card() {
   },
 
   {
-    portrait: "img/pictures-profile/axelc.jpg",
+    portrait: "img/pictures-profile/massintha.jpg",
     altPortrait: "Portrait Adeline Beaufils",
     name: "Massintha AIT BRAHAM",
     position: "Développeus web",
@@ -512,7 +512,7 @@ function card() {
 
     // article.querySelector('p').addEventListener('click', function(event) {alert(peopleData.name)})
 
-    document.querySelector("#container").appendChild(article)
+    document.querySelector(".container").appendChild(article)
   }
 }
 
