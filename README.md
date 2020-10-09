@@ -37,10 +37,14 @@ Travail sur les animations logos/liens réseaux sociaux
  Amélioration de la partie pop-up taille, disposition du texte;
  Modification des mailto=>copy to clipboard
  Ajout data élèves sur cards
+ 
  AU 08/10 
  Modification totale des cards 
  Création d'une fonction JS pour insertion data élèves dans HTML à partir d'un tableau
  Insertion d'un lien vers la page Jobs de la wild code school
  Mise en page via css des nouvelles cards
+ 
+ AU 09/10
+ Presentation du Projet final
  
  
