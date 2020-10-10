@@ -298,8 +298,12 @@ a {
 .footerMessage {
     font-size: 0.9rem;
 }
+.socialLinkFooterProfil {
+    color: white;
+    text-decoration: none;
+}
 
-/* Footer Part */
+/* End Footer Part */
 
 @media screen and (min-width: 761px){
     .header {
