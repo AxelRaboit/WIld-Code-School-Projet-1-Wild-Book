@@ -1,6 +1,7 @@
 # Wild-Book
 
 AU 29/09
+ - Mise en place du repo GitHub
  - Structure HTML
  - Travail sur le Header & Footer
  - Création du modele de base pour les cartes des Wilders
