@@ -134,8 +134,8 @@ p {
     transform:translate(-50%,-50%) scale(0);
     background:#fff;
     border-radius: 12px;
-    width:300px;
-    height:300px;
+    width: 350px;
+    height:350px;
     z-index:2;
     text-align:center;
     padding:20px;
