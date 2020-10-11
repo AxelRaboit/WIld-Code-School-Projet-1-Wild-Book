@@ -144,7 +144,7 @@ function card() {
     linkLinkedin: "https://www.linkedin.com/in/bruno-lagasse-8a699716a/",
     linkEmail: "brlagasse@gmail.com",
     linkGitHub: "https://github.com/BrunoLagasse",
-    beforeWcsDesc: "Boucher / Équipier polyvalent restau rapide.",
+    beforeWcsDesc: "Boucher / Équipier polyvalent restauration rapide.",
     goal: "Entreprendre une nouvelle vie et de nouvelles perspectives grâce à son futur métier de développeur.",
     character: "Enthousiaste, travail d'équipe, polyvalent.", 
   },
